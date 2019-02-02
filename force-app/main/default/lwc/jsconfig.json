@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/lwc-data-table": [
+                "lwcDataTable/lwcDataTable.js"
+            ],
+            "c/lwc-lightning-data-service": [
+                "lwcLightningDataService/lwcLightningDataService.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}
